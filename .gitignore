@@ -1,0 +1,15 @@
+# IDEA
+.idea/
+*.iml
+
+# Maven 编译产物
+target/
+
+# 日志
+logs/
+*.log
+*.log.gz
+
+# 系统文件
+.DS_Store
+Thumbs.db

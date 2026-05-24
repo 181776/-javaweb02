@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<project version="4">
-  <component name="DataSourcePerFileMappings">
-    <file url="file://$PROJECT_DIR$/web-management/src/main/java/codeking/mapper/DeptMapper.java" value="a65aedab-9f2d-43ee-bd28-54524faea750" />
-    <file url="file://$PROJECT_DIR$/web-management/src/main/java/codeking/mapper/EmpMapper.java" value="a65aedab-9f2d-43ee-bd28-54524faea750" />
-    <file url="file://$PROJECT_DIR$/web-management/src/main/resources/codeking/mapper/EmpMapper.xml" value="a65aedab-9f2d-43ee-bd28-54524faea750" />
-  </component>
-</project>
