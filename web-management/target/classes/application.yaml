@@ -1,0 +1,26 @@
+# 阿里云 OSS（SDK V2）；AccessKey 使用环境变量 OSS_ACCESS_KEY_ID / OSS_ACCESS_KEY_SECRET
+aliyun:
+  oss:
+    endpoint: https://oss-cn-beijing.aliyuncs.com
+    region: cn-beijing
+    bucket: java-3eb
+    # 可选：CDN / 自定义域名（不配则后端按 bucket + endpoint 拼默认访问 URL）
+    # url-prefix: https://your-cdn.example.com
+
+spring:
+  application:
+    name: web-management
+  servlet:
+    multipart:
+      max-file-size: 10MB
+      max-request-size: 100MB
+  #mysql连接配置
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/tlias
+    username: root
+    password: 123456
+mybatis:
+  configuration:
+    log-impl: org.apache.ibatis.logging.slf4j.Slf4jImpl
+    map-underscore-to-camel-case: true
